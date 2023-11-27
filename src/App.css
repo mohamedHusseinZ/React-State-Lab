@@ -1,0 +1,77 @@
+/* App.css */
+.App {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  transition: background-color 0.3s;
+}
+
+.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.light {
+  background-color: #fff;
+  color: #333;
+}
+
+h1 {
+  color: #007bff;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* ShoppingList.css */
+div {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+select {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Item.css */
+li {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.in-cart {
+  background-color: #dff0d8; /* Bootstrap success background color */
+}
+
+button {
+  background-color: #28a745; /* Bootstrap success button color */
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838; /* Bootstrap success button hover color */
+}
+
